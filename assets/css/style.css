@@ -241,18 +241,46 @@ textarea {
 /*
   These rules take effect when the browser's width
   is either 980px or less.
-
-@media screen and (max-width: 980px) {
-  body {
-    background-color: #333;
-  }
-
-  .wrapper {
-    width: 500px;
-  }
-}
-
 */
+@media screen and (max-width: 980px) {
+  html {
+    background-image:url(../images/topography.png);
+  }
+
+	.wrapper {
+	    width: 100%;
+	  }
+
+	article {
+		width: 40%;
+		margin:45px 20px 20px 100px;
+		padding-left:20px;
+	}
+
+	aside {
+	  	width:27%;
+	  	margin:45px 110px 0px 0px;
+	  }
+
+	#nameLogo {
+	
+		margin-left: 100px;
+		text-align: center;
+		position:static;
+	}
+	nav {
+		margin-right: 100px;
+	}
+	#bioPic {
+		width:95%;
+		height:auto;
+	}
+
+	.bio	{
+		padding-left: 0px;
+	}
+
+}
 
 /*
   These rules take effect when the browser's width
