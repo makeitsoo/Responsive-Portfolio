@@ -181,7 +181,7 @@ p {
 	padding: 15px 15px 15px 15px;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	bottom:75px;
+	bottom:80px;
 	text-align: center;
 }
 
@@ -190,7 +190,7 @@ img {
 	height:200px;
 }
 
-div.picButtons {
+.picButtons {
 	width: 650px;
 	margin-left: 0px;
 	position: relative;
@@ -255,3 +255,344 @@ p.pic_education {
 }
 
 
+/* below here are the @media queries for responsive design*/
+
+/*
+  These rules take effect when the browser's width
+  is either 980px or less.
+*/
+@media screen and (max-width: 980px) {
+  	html {
+    	background-image:url(../images/topography.png);
+  }
+
+	.wrapper {
+	    width: 100%;
+	}
+
+	article {
+		width: 40%;
+		margin:45px 20px 20px 100px;
+		padding-left:20px;
+		height: auto;
+	}
+
+	aside {
+	  	width:27%;
+	  	margin:45px 110px 0px 0px;
+	  }
+
+	#nameLogo {
+	
+		margin-left: 100px;
+		text-align: center;
+		position:static;
+	}
+	nav {
+		margin-right: 90px;
+	}
+	
+	.picButtons {
+		width: 100%;
+		/*height: auto;
+		*/
+	}
+
+	.nature {
+		width:100%;
+		position: static;
+	}
+
+	/*
+	.pic_nature {
+		width:95%;
+		height:auto;
+	}
+
+	.p_nature {
+		width: 84%;
+		position:relative;
+		border-right: 4px solid #4aaaa5;
+		padding:5%;
+	}
+*/
+	.strategy {
+		position: static;
+	}
+
+	.motos {
+		position: static;
+	}
+	
+	.sports {
+		position: static;
+	}
+	
+	.education {
+		position: static;
+	}
+
+}
+
+
+
+
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+  	html {
+    	background-image:url(../images/topography.png);
+  	}
+
+	.wrapper {
+	    width: 100%;
+	}
+	nav {
+		margin-right: 0px;
+	}
+
+	article {
+		width: 90%;
+		margin:45px 20px 20px 20px;
+		padding-left:20px;
+		height: 800px;
+		border-style:solid;
+		border-width:1px;
+		border-color:#dddddd;
+		background-color: #ffffff;
+		float:left;
+		width:623px;
+		padding-left:25px;
+		margin-top: 42px;
+	}
+
+	aside {
+	  	width:90%;
+	  	margin:0px 0px 20px 0px;
+	  	padding:0px 0px 0px 20px;
+	  }
+
+	#nameLogo {
+	
+		margin-left: 15px;
+		text-align: center;
+		position:static;
+	}
+
+	p {
+		width: 240px;
+		padding: 15px 15px 15px 15px;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		bottom:80px;
+		text-align: center;
+	}
+
+	img {
+		width:270px;
+		height:200px;
+	}
+
+	.picButtons {
+		width: 650px;
+		margin-left: 0px;
+		position: relative;
+	}
+
+	.nature{
+		width: 270px;
+		position: absolute;
+	}
+
+	p.pic_nature {
+		position: relative;
+		/*bottom: 90px;*/
+	}
+
+	.strategy {
+		width: 270px;
+		position: absolute;
+		right: 50px;
+		top: 0px;
+	}
+
+	p.pic_strategy {
+		position: relative;
+		/*bottom: 90px;*/
+	}
+
+	.motos {
+		width: 270px;
+		position: absolute;
+		left: 0px;
+		top: 250px;
+	}
+
+	p.pic_moto {
+		position: relative;
+		/*bottom: 90px;*/
+	}
+
+	.sports {
+	    width: 270px;
+		position: absolute;
+		right: 50px;
+		top: 250px;
+	}
+
+	p.pic_sports {
+		position: relative;
+		/*bottom: 90px;*/
+	}
+
+	.education {
+		width: 270px;
+		position: absolute;
+		left: 0px;
+		top: 500px;
+	}
+
+	p.pic_education {
+		position: relative;
+		/*bottom: 90px;*/
+	}
+
+/*
+	#pic1 {
+		width:50%;
+		height:auto;
+	}
+	#label1 {
+		width:45%;
+		height:auto;
+	}
+
+	#pic2 {
+		width:95%;
+		height:auto;
+	}
+	#pic3 {
+		width:95%;
+		height:auto;
+	}
+	#pic4 {
+		width:95%;
+		height:auto;
+	}
+	#pic5 {
+		width:95%;
+		height:auto;
+	}
+
+*/
+
+}
+
+
+
+
+
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+  	html {
+    	background-image:url(../images/topography.png);
+  	}
+
+	.wrapper {
+	    width: 100%;
+	}
+
+	nav {
+		width: 100%;
+		margin:0px;
+		padding:10px;
+		background-color: white;
+		border-bottom:1px solid #C6C1C1;
+	}
+
+	article {
+		width: 90%;
+		margin:65px 20px 20px 20px;
+		padding-left:20px;
+	}
+
+	aside {
+	  	width:90%;
+	  	margin:0px 0px 20px 0px;
+	  	padding:0px 0px 0px 20px;
+	  }
+
+
+	#nameLogo {
+		width:100%;
+		margin:0px;
+		text-align: center;
+		padding:20px;
+		position:static;
+	}
+	#contactButton {
+		margin-left: 7%;
+	}
+
+	#portButton {
+		margin-left:7%;
+		padding-right: 7%;
+	}
+
+	#aboutButton {
+		margin-left: 23%;
+		padding-right: 7%
+	}
+
+	footer {
+		margin:0px;
+		width:100%;
+	}
+	.picButtons {
+		width: 100%;
+		/*height: auto;
+		*/
+	}
+
+	.nature {
+		width:100%;
+		position: static;
+	}
+
+	/*
+	.pic_nature {
+		width:95%;
+		height:auto;
+	}
+
+	.p_nature {
+		width: 84%;
+		position:relative;
+		border-right: 4px solid #4aaaa5;
+		padding:5%;
+	}
+*/
+	.strategy {
+		position: static;
+	}
+
+	.motos {
+		position: static;
+	}
+	
+	.sports {
+		position: static;
+	}
+	
+	.education {
+		position: static;
+	}
+
+}
