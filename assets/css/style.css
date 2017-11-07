@@ -269,7 +269,7 @@ textarea {
 		position:static;
 	}
 	nav {
-		margin-right: 100px;
+		margin-right: 90px;
 	}
 	#bioPic {
 		width:95%;
@@ -354,9 +354,8 @@ textarea {
 		width: 100%;
 		margin:0px;
 		padding:10px;
-		border-bottom: solid;
 		background-color: white;
-		border-bottom-width: 1px;
+		border-bottom:1px solid #C6C1C1;
 	}
 
 	article {
