@@ -521,6 +521,7 @@ p.pic_education {
 		width: 90%;
 		margin:65px 20px 20px 20px;
 		padding-left:20px;
+		height: auto;
 	}
 
 	aside {
